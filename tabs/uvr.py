@@ -6,7 +6,7 @@ import subprocess
 
 import gradio as gr
 import torch
-from VoiceChange.separator import Separator
+from separator.separator import Separator
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 use_autocast = device == "cuda"
