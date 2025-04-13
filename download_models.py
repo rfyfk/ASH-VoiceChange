@@ -2,8 +2,8 @@ import os
 
 import requests
 
-PREDICTORS = "https://huggingface.co/Politrees/RVC_resources/resolve/main/predictors/"
-EMBEDDERS = "https://huggingface.co/Politrees/RVC_resources/resolve/main/embedders/pytorch/"
+PREDICTORS = "https://huggingface.co/rfyfk/RVC_resources/resolve/main/predictors/"
+EMBEDDERS = "https://huggingface.co/rfyfk/RVC_resources/resolve/main/embedders/pytorch/"
 
 PREDICTORS_DIR = os.path.join(os.getcwd(), "rvc", "models", "predictors")
 EMBEDDERS_DIR = os.path.join(os.getcwd(), "rvc", "models", "embedders")
