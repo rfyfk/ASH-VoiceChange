@@ -38,4 +38,3 @@ def welcome_tab():
                 "ASH Chat"  # Имя ссылки
                 "</a></h2></center>"
             )
-        )
