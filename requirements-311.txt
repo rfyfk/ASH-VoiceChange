@@ -20,6 +20,6 @@ faiss-cpu==1.7.3
 local-attention
 tensorboardX
 
-# Самостоятельно скомпилированные Politrees'ом библиотеки
+# Скомпилированные Politrees'ом библиотеки
 # Исправленные или доработанные | py-3.11
 https://github.com/rfyfk/TrainModel/releases/download/fixed-packages/fairseq_fixed-0.13.0-cp311-cp311-linux_x86_64.whl
