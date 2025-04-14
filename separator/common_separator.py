@@ -8,7 +8,7 @@ import librosa
 import torch
 from pydub import AudioSegment
 import soundfile as sf
-from separator.separator.uvr_lib_v5 import spec_utils
+from separator.uvr_lib_v5 import spec_utils
 
 
 class CommonSeparator:
