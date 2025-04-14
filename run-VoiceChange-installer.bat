@@ -1,9 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
-title PolGen Installer
+title VoiceChange Installer
 cd /d "%~dp0"
 
-echo Welcome to the PolGen Installer!
+echo Welcome to the VoiceChange Installer!
 echo.
 
 set "PRINCIPAL=%cd%"
@@ -19,8 +19,8 @@ call :download_ffmpeg
 call :installing_necessary_models
 
 cls
-echo PolGen has been installed successfully!
-echo To start PolGen, please run 'run-PolGen.bat'.
+echo VoiceChange has been installed successfully!
+echo To start VoiceChange, please run 'run-VoiceChange.bat'.
 echo.
 pause
 exit /b 0
