@@ -5,7 +5,7 @@ import soundfile as sf
 import math
 import platform
 import traceback
-from PolUVR.separator.uvr_lib_v5 import pyrb
+from separator.uvr_lib_v5 import pyrb
 from scipy.signal import correlate, hilbert
 import io
 
