@@ -402,7 +402,7 @@ class Separator:
         Also includes model performance scores where available.
         """
         download_checks_path = os.path.join(self.model_file_dir, "model_list_links.json")
-        self.download_file_if_not_exists("https://raw.githubusercontent.com/Bebra777228/UVR_resources/main/model_list_links.json", download_checks_path)
+        self.download_file_if_not_exists("https://raw.githubusercontent.com/rfyfk/RVC_resources/main/separator/model_list_links.json", download_checks_path)
 
         model_downloads_list = json.load(open(download_checks_path, encoding="utf-8"))
         self.logger.debug(f"UVR model download list loaded")
@@ -482,10 +482,10 @@ class Separator:
 
     def print_uvr_vip_message(self):
         """
-        This method prints a message to the user if they have downloaded a VIP model, reminding them to support Anjok07 on Patreon.
+        This method prints a message to the user if they have downloaded a WIP model, reminding them to support Anjok07 on Patreon.
         """
         if self.model_is_uvr_vip:
-            self.logger.warning(f"The model: '{self.model_friendly_name}' is a VIP model, intended by Anjok07 for access by paying subscribers only.")
+            self.logger.warning(f"The model: '{self.model_friendly_name}' is a WIP model, intended by Anjok07 for access by paying subscribers only.")
             self.logger.warning("If you are not already subscribed, please consider supporting the developer of UVR, Anjok07 by subscribing here: https://patreon.com/uvr")
 
     def download_model_files(self, model_filename):
@@ -556,7 +556,7 @@ class Separator:
         The correct parameters are identified by calculating the hash of the model file and looking up the hash in the UVR data files.
         """
         # Model data and configuration sources from UVR
-        model_data_url_prefix = "https://raw.githubusercontent.com/Bebra777228/UVR_resources/main/model_data"
+        model_data_url_prefix = "https://raw.githubusercontent.com/rfyfk/RVC_resources/main/separator/model_data"
 
         vr_model_data_url = f"{model_data_url_prefix}/vr_model_data.json"
         mdx_model_data_url = f"{model_data_url_prefix}/mdx_model_data.json"
