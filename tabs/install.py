@@ -9,7 +9,7 @@ from rvc.modules.model_manager import download_from_url, upload_separate_files, 
 
 EMBEDDERS_DIR = os.path.join(os.getcwd(), "rvc", "models", "embedders")
 HUBERT_BASE_PATH = os.path.join(EMBEDDERS_DIR, "hubert_base.pt")
-BASE_URL = "https://huggingface.co/Politrees/RVC_resources/resolve/main/embedders/pytorch/"
+BASE_URL = "https://huggingface.co/rfyfk/RVC_resources/resolve/main/embedders/pytorch/"
 
 MODELS = [
     "hubert_base.pt",
