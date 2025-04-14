@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Welcome to the PolGen Installer!"
+echo "Welcome to the VoiceChange Installer!"
 echo
 
 PRINCIPAL=$(pwd)
@@ -133,6 +133,6 @@ install_dependencies
 install_ffmpeg
 installing_necessary_models
 
-echo "PolGen has been installed successfully!"
-echo "To start PolGen, please run './PolGen.sh'."
+echo "VoiceChange has been installed successfully!"
+echo "To start VoiceChange, please run './VoiceChange.sh'."
 echo
