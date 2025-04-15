@@ -10,7 +10,6 @@ import gradio as gr
 from tabs.edge_tts import edge_tts_tab
 from tabs.inference import inference_tab
 from tabs.install import files_upload, install_hubert_tab, output_message, url_zip_download, zip_upload
-from tabs.uvr import uvr_tab
 from tabs.welcome import welcome_tab
 
 DEFAULT_SERVER_NAME = "127.0.0.1"
