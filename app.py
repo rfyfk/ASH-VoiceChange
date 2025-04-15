@@ -61,7 +61,7 @@ with gr.Blocks(
             gr.HTML(
                 "<center><h3>UVR не будет функционировать без подключения к интернету, если вы ранее не установили необходимые модели.</h3></center>"
             )
-        uvr_tab()
+        # uvr_tab()
 
     with gr.Tab("Загрузка моделей"):
         if not is_offline_mode():
